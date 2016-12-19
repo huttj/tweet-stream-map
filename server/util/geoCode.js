@@ -22,7 +22,7 @@ const load = (function() {
     "use strict";
 
     const next = lock
-      .then(()=> sleep(1000))
+      .then(()=> sleep(500))
       .then(()=> fetch(`http://nominatim.openstreetmap.org/search/${location}?format=json`).then(n => n.json()));
 
     lock = next.catch(()=>{});

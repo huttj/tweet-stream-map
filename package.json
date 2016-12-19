@@ -10,21 +10,20 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "aws-sdk": "^2.7.10",
-    "babel-preset-eslatest-node6": "^1.0.1",
     "body-parser": "^1.15.2",
     "cookie-parser": "^1.4.3",
     "dotenv-safe": "^3.0.0",
     "express": "^4.14.0",
     "isomorphic-fetch": "^2.2.1",
     "morgan": "^1.7.0",
-    "node-babel": "^0.1.2",
-    "pg": "^6.1.0",
+    "sentiment": "^2.1.0",
     "sequelize": "^3.27.0",
-    "socket.io": "^1.7.1"
+    "socket.io": "^1.7.1",
+    "twit": "^2.2.5"
   },
   "devDependencies": {
+    "node-babel": "^0.1.2",
     "babel-cli": "^6.18.0",
-    "babel-preset-stage-0": "^6.16.0"
+    "babel-preset-eslatest-node6": "^1.0.1"
   }
 }
